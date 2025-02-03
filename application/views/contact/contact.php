@@ -27,15 +27,15 @@
                         <div class="row gy-4">
                             <div class="col-md-4">
                                 <h5 class="section-title ff-secondary fw-normal text-start text-primary">Booking</h5>
-                                <p><i class="fa fa-envelope-open text-primary me-2"></i>book@example.com</p>
+                                <p class="email"><i class="fa fa-envelope-open text-primary me-2"></i>book@example.com</p>
                             </div>
                             <div class="col-md-4">
                                 <h5 class="section-title ff-secondary fw-normal text-start text-primary">General</h5>
-                                <p><i class="fa fa-envelope-open text-primary me-2"></i>info@example.com</p>
+                                <p class="email"><i class="fa fa-envelope-open text-primary me-2"></i>info@example.com</p>
                             </div>
                             <div class="col-md-4">
                                 <h5 class="section-title ff-secondary fw-normal text-start text-primary">Technical</h5>
-                                <p><i class="fa fa-envelope-open text-primary me-2"></i>tech@example.com</p>
+                                <p class="email"><i class="fa fa-envelope-open text-primary me-2"></i>tech@example.com</p>
                             </div>
                         </div>
                     </div>
@@ -50,24 +50,42 @@
                             <form>
                                 <div class="row g-3">
                                     <div class="col-md-6">
+                                        <span class="text">Silahkan Isi Nama</span>
                                         <div class="form-floating">
                                             <input type="text" class="form-control" id="name" placeholder="Your Name">
                                             <label for="name">Your Name</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
+                                        <span class="text">Akun Email</span>
                                         <div class="form-floating">
                                             <input type="email" class="form-control" id="email" placeholder="Your Email">
                                             <label for="email">Your Email</label>
                                         </div>
                                     </div>
+                                    <div class="col-md-6">
+                                        <span class="text">Nomor Telepon</span>
+                                        <div class="form-floating">
+                                            <input type="tel" pattern="\(\d\d\d\d\)-\d\d\d\d\d\d\d" class="form-control" id="name" placeholder="Your Name">
+                                            <label for="name">+62</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <span class="text">Tanggal Pengiriman</span>
+                                        <div class="form-floating">
+                                            <input type="date" class="form-control" id="email" placeholder="Tanggal Pemesanan">
+                                            <label for="email">Tanggal Pemesanan</label>
+                                        </div>
+                                    </div>
                                     <div class="col-12">
+                                        <span class="text">Alamat Pengiriman</span>
                                         <div class="form-floating">
                                             <input type="text" class="form-control" id="subject" placeholder="Subject">
                                             <label for="subject">Subject</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
+                                        <span class="text">Jenis Pemesanan</span>
                                         <div class="form-floating">
                                             <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
                                             <label for="message">Message</label>

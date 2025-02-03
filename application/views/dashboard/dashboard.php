@@ -6,10 +6,10 @@
                         <div class="col-lg-6 text-center text-lg-start">
                             <h1 class="display-3 text-white animated slideInLeft">Enjoy Our<br>Delicious Meal</h1>
                             <p class="text-white animated slideInLeft mb-4 pb-2">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                            <a href="" class="btn py-sm-3 px-sm-5 me-3 animated slideInLeft">Book A Table</a>
+                            <a href="#menu" class="btn py-sm-3 px-sm-5 me-3 animated slideInLeft">Menu</a>
                         </div>
                         <div class="col-lg-6 text-center text-lg-end overflow-hidden">
-                            <img class="img-fluid" src="<?= base_url('assets/img/hero-1.png')?>"  alt="">
+                            <img class="img-fluid" src="<?= base_url('assets/img/menu/Chickatsu.png')?>"  alt="">
                         </div>
                     </div>
                 </div>
@@ -25,7 +25,7 @@
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item rounded pt-3">
                             <div class="p-4">
-                                <i class="fa fa-3x fa-user-tie mb-4"></i>
+                                <i class="fa fa-3x fa-user-tie mb-4 light"></i>
                                 <h5>Master Chefs</h5>
                                 <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
                             </div>
@@ -64,65 +64,14 @@
         <!-- Service End -->
 
 
-        <!-- About Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-6">
-                        <div class="row g-3">
-                            <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="<?= base_url('assets/img/about-1.jpg') ?>">
-                            </div>
-                            <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="<?= base_url('assets/img/about-2.jpg" style="margin-top: 25%;') ?>">
-                            </div>
-                            <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="<?= base_url('assets/img/about-3.jpg') ?>">
-                            </div>
-                            <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="<?= base_url('assets/img/about-4.jpg') ?>">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5>
-                        <h1 class="mb-4">Welcome to <i class="fa fa-utensils text-primary me-2"></i>Restoran</h1>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                        <div class="row g-4 mb-4">
-                            <div class="col-sm-6">
-                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">15</h1>
-                                    <div class="ps-4">
-                                        <p class="mb-0">Years of</p>
-                                        <h6 class="text-uppercase mb-0">Experience</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">50</h1>
-                                    <div class="ps-4">
-                                        <p class="mb-0">Popular</p>
-                                        <h6 class="text-uppercase mb-0">Master Chefs</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="btn py-3 px-5 mt-2" href="">Read More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
-
+    
 
         <!-- Menu Start -->
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
-                    <h1 class="mb-5">Most Popular Items</h1>
+                    <h1 class="mb-5" id="menu">Most Popular Items</h1>
                 </div>
                 <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
                     <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
@@ -461,6 +410,322 @@
         </div>
         <!-- Menu End -->
 
+    <section class="food_section layout_padding-bottom">
+    <div class="container">
+      <div class="heading_container heading_center">
+      </div>
+      <div class="filters-content">
+        <div class="row grid  wow fadeInUp" data-wow-delay="0.1s">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="section-title ff-secondary text-center text-primary fw-normal" id="foodbox">Special Menu</h5>
+                <h1 class="mb-5" id="menu-dessert">Dessert</h1>
+            </div>
+          <div class="col-sm-6 col-lg-4 all pizza wow fadeInUp" data-wow-delay="0.1s">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="<?= base_url("assets/img/") ?>/menu4/menu4-1.jpg" alt="">
+                </div>
+                <div class="detail-box dark">
+                  <h5>
+                    Delicious Pizza
+                  </h5>
+                  <p>
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                  </p>
+                  <div class="options">
+                    <h6>
+                      $20
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="<?= base_url("assets/img/") ?>/f1.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Delicious Pizza
+                  </h5>
+                  <p>
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                  </p>
+                  <div class="options">
+                    <h6>
+                      $20
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="<?= base_url("assets/img/") ?>/f1.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Delicious Pizza
+                  </h5>
+                  <p>
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                  </p>
+                  <div class="options">
+                    <h6>
+                      $20
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="<?= base_url("assets/img/") ?>/f1.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Delicious Pizza
+                  </h5>
+                  <p>
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                  </p>
+                  <div class="options">
+                    <h6>
+                      $20
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="<?= base_url("assets/img/") ?>/f1.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Delicious Pizza
+                  </h5>
+                  <p>
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                  </p>
+                  <div class="options">
+                    <h6>
+                      $20
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="<?= base_url("assets/img/") ?>/f1.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Delicious Pizza
+                  </h5>
+                  <p>
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                  </p>
+                  <div class="options">
+                    <h6>
+                      $20
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="<?= base_url("assets/img/") ?>/f1.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Delicious Pizza
+                  </h5>
+                  <p>
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                  </p>
+                  <div class="options">
+                    <h6>
+                      $20
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="<?= base_url("assets/img/") ?>/f1.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Delicious Pizza
+                  </h5>
+                  <p>
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                  </p>
+                  <div class="options">
+                    <h6>
+                      $20
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="<?= base_url("assets/img/") ?>/f1.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Delicious Pizza
+                  </h5>
+                  <p>
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                  </p>
+                  <div class="options">
+                    <h6>
+                      $20
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+  </section>
+
+  <!-- end food section -->
+
+         <!-- Menu Box Start -->
+         <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal" id="foodbox">Food Box</h5>
+                    <h1 class="mb-5" id="menu-box">Explore Our Food Box </h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item" style="border-radius:25px">
+                            <div class="p-4">
+                                <!-- <i class="fa fa-3x fa-user-tie  mb-4"></i> -->
+                                <h5>Paket 1</h5>
+                                <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu/Nasi Goreng Kambing 2.jpg') ?>" alt="" style="width:100%; border:solid 5px white; padding:5px;">
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item" style="border-radius:25px;">
+                            <div class="p-4">
+                                <!-- <i class="fa fa-3x fa-utensils  mb-4"></i> -->
+                                <h5>Paket 2</h5>
+                                <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu/Paket1.jpg') ?>" alt="" style="width:100%; border:solid 5px white; padding:5px;">                                
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item" style="border-radius:25px;">
+                            <div class="p-4">
+                                <!-- <i class="fa fa-3x fa-cart-plus mb-4"></i> -->
+                                <h5>Paket 3</h5>
+                                <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu/Paket2-4.jpg') ?>" alt="" style="width:100%; border:solid 5px white; padding:5px;">                                
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item" style="border-radius:25px;">
+                            <div class="p-4">
+                                <!-- <i class="fa fa-3x fa-headset   mb-4"></i> -->
+                                <h5>Paket 4</h5>
+                                <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu/nasibox1.jpg') ?>" alt="" style="width:100%; border:solid 5px white; padding:5px;">                                
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item" style="border-radius:25px;">
+                            <div class="p-4">
+                                <!-- <i class="fa fa-3x fa-user-tie  mb-4"></i> -->
+                                <h5>Paket 5</h5>
+                                <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu/nasitumpeng.jpg') ?>" alt="" style="width:100%; border:solid 5px white; padding:5px;">                                
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="service-item" style="border-radius:25px;">
+                            <div class="p-4">
+                                <!-- <i class="fa fa-3x fa-utensils  mb-4"></i> -->
+                                <h5>Paket 6</h5>
+                                <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu/Nasi Katsu 1.jpg') ?>" alt="" style="width:100%; border:solid 5px white; padding:5px;">                                
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="service-item" style="border-radius:25px;">
+                            <div class="p-4">
+                                <!-- <i class="fa fa-3x fa-cart-plus mb-4"></i> -->
+                                <h5>Paket 7</h5>
+                                <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu/Nasi Paru 5.jpg') ?>" alt="" style="width:100%; border:solid 5px white; padding:5px;">                                
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item" style="border-radius:25px;">
+                            <div class="p-4">
+                                <!-- <i class="fa fa-3x fa-headset  mb-4"></i> -->
+                                <h5>Paket 8</h5>
+                                <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu/camilan.jpg') ?>" alt="" style="width:100%; border:solid 5px white; padding:5px;">                                
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="service-item" style="border-radius:25px;">
+                            <div class="p-4">
+                                <!-- <i class="fa fa-3x fa-headset  mb-4"></i> -->
+                                <h5>Paket 9</h5>
+                                <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu/nasibox3.jpg') ?>" alt="" style="width:100%; border:solid 5px white; padding:5px;">                                
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu Box End -->
+
 
         <!-- Reservation Start -->
         <!-- <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
@@ -540,76 +805,6 @@
             </div>
         </div> -->
         <!-- Reservation Start -->
-
-
-        <!-- Team Start -->
-        <div class="container-xxl pt-5 pb-3">
-            <div class="container">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Team Members</h5>
-                    <h1 class="mb-5">Our Master Chefs</h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="<?= base_url('assets/img/team-1.jpg') ?> " alt="">
-                            </div>
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="<?= base_url('assets/') ?>img/team-2.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="<?= base_url('assets/') ?>img/team-3.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="<?= base_url('assets/img/team-4.jpg') ?>" alt="">
-                            </div>
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team End -->
 
 
         <!-- Testimonial Start -->

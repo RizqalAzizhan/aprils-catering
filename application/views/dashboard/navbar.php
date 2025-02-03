@@ -11,14 +11,15 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
                         <a href="<?= base_url('Dashboard/index') ?>" class="nav-item nav-link active">Home</a>
-                        <a href="<?= base_url('Dashboard/about') ?>" class="nav-item nav-link">About</a>
-                        <a href="<?= base_url('Dashboard/service') ?>" class="nav-item nav-link">Service</a>
+                        <a href="#menu-dessert" class="nav-item nav-link">Dessert</a>
+                        <a href="#menu-box" class="nav-item nav-link">Rice Box</a>
                         <a href="<?= base_url('Dashboard/menu') ?>" class="nav-item nav-link">Menu</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-0">
                                 <a href="<?= base_url('Dashboard/booking') ?>" class="dropdown-item">Booking</a>
                                 <!-- <a href="<?= base_url('Dashboard/team') ?>" class="dropdown-item">Our Team</a> -->
+                                <!-- <a href="<?= base_url('Login/login') ?>" class="dropdown-item">Login</a> -->
                                 <a href="<?= base_url('Dashboard/testimonial') ?>" class="dropdown-item">Testimonial</a>
                             </div>
                         </div>

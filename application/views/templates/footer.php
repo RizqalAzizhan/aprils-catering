@@ -84,6 +84,9 @@
 
     <!-- Template Javascript -->
     <script src=" <?= base_url('assets/js/main.js') ?>"></script>
+    <script src=" <?= base_url('assets/js/bootstrap.js') ?>"></script>
+    <script src=" <?= base_url('assets/js/custom.js') ?>"></script>
+    <script src=" <?= base_url('assets/js/jquery-3.4.1.min.js') ?>"></script>
 </body>
 
 </html>
