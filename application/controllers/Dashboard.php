@@ -81,4 +81,32 @@ class Dashboard extends CI_Controller {
         $this->load->view('templates/footer');
 
     }
+
+    public function sendEmail($token)
+    {
+        $config = [
+            'protocol' => 'smtp',
+            'smtp_host' => 'ssl://smtp.googlemail.com',
+            'smtp_user' => 'muhamadrizkysaputra34@gmail.com',
+            'smtp_pass' => 'tpac vema mxyk ypqe',
+            'smtp_port' => 465,
+            'mailtype' => 'html',
+            'charset' => 'utf-8',
+            'newline' => "\r\n"
+        ];
+
+        $this->email->initialize($config);
+
+        $this->email->from('muhamadrizkysaputra34@gmail.com', 'Rizky Saputra');
+        $this->email->to($this->input->post('email'));
+        $this->email->subject('Verifikasi Akun');
+        $this->email->message('Token : ' . $token);
+
+        if ( $this->email->send() ){
+            return true;
+        } else {
+            echo $this->email->print_debugger();
+            die;
+        }
+    }
 }

@@ -130,7 +130,7 @@
 
     .navbar-dark .navbar-collapse {
         margin-top: 15px;
-        border-top: 1px solid rgba(255, 255, 255, .1)
+        border-top: 1px solid rgba(255, 255, 255, .1);
     }
 
     .navbar-dark .navbar-nav .nav-link,
@@ -225,6 +225,11 @@
     background-color: var(--success);
 }
 
+.service-item .detail-box{
+    padding: 10px;
+    color: var(--primary);
+}
+
 .service-item h5, p{
     color: var(--light);
 }
@@ -234,6 +239,11 @@
 
 .service-item i{
     color:var(--light)
+}
+
+.service-item h6{
+    color: var(--primary);
+    padding: 10px;
 }
 
 
