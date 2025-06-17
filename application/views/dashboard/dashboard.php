@@ -6,17 +6,23 @@
                         <div class="col-lg-6 text-center text-lg-start">
                             <h1 class="display-3 text-white animated slideInLeft">Kepuasan Anda <br>Adalah Priotitas Kami</h1>
                             <p class="text-white animated slideInLeft mb-4 pb-2">ORDER NOW</p>
-                            <a href="#menu" class="btn py-sm-3 px-sm-5 me-3 animated slideInLeft">Menu</a>
+                            <a href="#menu-food" class="btn py-sm-3 px-sm-5 me-3 animated slideInLeft">Menu</a>
                         </div>
                         <div class="col-lg-6 text-center text-lg-end overflow-hidden">
                             <img class="img-fluid" src="<?= base_url('assets/img/menu/Chickatsu.png')?>"  alt="">
                         </div>
+                      
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page"><a href="#reservasi">Reservasi Whatsapp</a></li>
+                        </ol>
+                    
                     </div>
                 </div>
             </div>
         </div>
         <!-- Navbar & Hero End -->
-
 
         <!-- Service Start -->
         <div class="container-xxl py-5">
@@ -1413,8 +1419,8 @@
         </div>
 
         <div class="container" data-wow-delay="0.1s">
-            <div class="container">
-            <a href="https://api.whatsapp.com/send?phone=62895367304114" target="blank"><h5 class="rounded-pill bg-success text-center text-light"><i class="bi bi-whatsapp"></i> Reservasi Chat disini yaa</h5></a>
+            <div class="container py-1">
+            <a href="https://api.whatsapp.com/send?phone=62895367304114" target="blank" id="reservasi"><h5 class="rounded-pill bg-success text-center text-light"><i class="bi bi-whatsapp"></i> Reservasi Chat disini yaa</h5></a>
             </div>
         </div>
 

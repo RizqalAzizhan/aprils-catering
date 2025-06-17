@@ -60,14 +60,28 @@
                     </div>
                 </div>
             </div>
-        </div>
+            <!-- Whatsapp reservasi -->
+            <!-- <div class="container-xxl position-relative p-0">
+                <div class="reservasi">
+                    <div class="row">
+                       <div class="container" data-wow-delay="0.1s">
+                        <div class="resbutton">
+                            <a href="https://api.whatsapp.com/send?phone=62895367304114" target="blank"><h5 class="rounded-pill bg-primary text-center text-light" ><i class="bi bi-whatsapp"></i> Reservasi Chat disini yaa</h5></a>
+                        </div>
+                    </div> 
+                    </div>
+                </div>
+            </div>
+        </div> -->
         <!-- Footer End -->
 
+        
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-sm btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
 
+    
 
 
     <!-- JavaScript Libraries -->
