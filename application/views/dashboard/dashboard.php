@@ -444,6 +444,7 @@
             </div>
           </div>
           <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+            <a href="https://wa.me/6285876265239/?text=Halo saya ingin memesan" <?= base_url("assets/img/menu/Nasi Paru.jpg")?> target="blank">
             <div class="box">
               <div>
                 <div class="img-box">
@@ -464,6 +465,7 @@
                 </div>
               </div>
             </div>
+          </a>
           </div>
           <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
             <div class="box">
