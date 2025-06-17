@@ -501,6 +501,16 @@
     border-top: 1px solid rgba(256, 256, 256, .1);
 }
 
+.footer .reservasi {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+    margin-top: auto;
+}
+.footer .reservasi .h5{
+    padding-left: 15%;
+}
+
 .footer .copyright a {
     color: var(--light);
 }
@@ -516,6 +526,7 @@
     padding-right: 0;
     border-right: none;
 }
+
 
 .email{
     color: #0F172B;

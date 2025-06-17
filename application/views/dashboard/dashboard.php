@@ -1,19 +1,21 @@
-<div class="container-xxl py-5 bg-dark hero-header mb-5">
-  <div class="container my-5 py-5">
-    <div class="row align-items-center g-5">
-      <div class="col-lg-6 text-center text-lg-start">
-        <h1 class="display-3 text-white animated slideInLeft">Kepuasan Anda <br>Adalah Priotitas Kami</h1>
-        <p class="text-white animated slideInLeft mb-4 pb-2">ORDER NOW</p>
-        <a href="#menu" class="btn py-sm-3 px-sm-5 me-3 animated slideInLeft">Menu</a>
-      </div>
-      <div class="col-lg-6 text-center text-lg-end overflow-hidden">
-        <img class="img-fluid" src="<?= base_url('assets/img/menu/Chickatsu.png') ?>" alt="">
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-<!-- Navbar & Hero End -->
+
+
+            <div class="container-xxl py-5 bg-dark hero-header mb-5">
+                <div class="container my-5 py-5">
+                    <div class="row align-items-center g-5">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <h1 class="display-3 text-white animated slideInLeft">Kepuasan Anda <br>Adalah Priotitas Kami</h1>
+                            <p class="text-white animated slideInLeft mb-4 pb-2">ORDER NOW</p>
+                            <a href="#menu" class="btn py-sm-3 px-sm-5 me-3 animated slideInLeft">Menu</a>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-end overflow-hidden">
+                            <img class="img-fluid" src="<?= base_url('assets/img/menu/Chickatsu.png')?>"  alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
 
 
 <!-- Service Start -->
@@ -1419,7 +1421,7 @@
 <div class="container" data-wow-delay="0.1s">
   <div class="container">
     <a href="https://api.whatsapp.com/send?phone=62895367304114" target="blank">
-      <h5 class="reservation-footer"><i class="bi bi-whatsapp"></i> Reservasi Chat disini yaa</h5>
+      <h5 class="rounded-pill bg-success text-center text-light"><i class="bi bi-whatsapp"></i> Reservasi Chat disini yaa</h5>
     </a>
   </div>
 </div>
