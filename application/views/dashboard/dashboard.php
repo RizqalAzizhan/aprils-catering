@@ -1419,7 +1419,7 @@
 <div class="container" data-wow-delay="0.1s">
   <div class="container">
     <a href="https://api.whatsapp.com/send?phone=62895367304114" target="blank">
-      <h5 class="rounded-pill bg-success text-center text-light"><i class="bi bi-whatsapp"></i> Reservasi Chat disini yaa</h5>
+      <h5 class="reservation-footer"><i class="bi bi-whatsapp"></i> Reservasi Chat disini yaa</h5>
     </a>
   </div>
 </div>

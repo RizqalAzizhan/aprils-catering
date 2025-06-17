@@ -30,6 +30,7 @@
 
     <!-- Template Stylesheet -->
     <link href="<?= base_url('assets/css/style.css') ?>" rel="stylesheet">
+    <link href="<?= base_url('assets/css/main.css') ?>" rel="stylesheet">
 </head>
 
 <body>
