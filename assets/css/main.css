@@ -1,5 +1,5 @@
 .reservation-footer {
-    background: linear-gradient(135deg, #2e5902, #1e3b00);
+    background: #FFB200;
     color: #fff;
     padding: 25px 20px;
     text-align: center;
@@ -15,7 +15,7 @@
 }
 
 .reservation-footer:hover {
-    background: linear-gradient(135deg, #3c7a00, #254f00);
+    background: rgb(243, 191, 68);
     transform: translateY(-2px);
 }
 
