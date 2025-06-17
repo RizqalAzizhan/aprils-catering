@@ -64,9 +64,9 @@
         <!-- Footer End -->
 
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-sm btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-    </div>
+ <!-- Back to Top -->
+ <a href="#" class="btn btn-sm btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+ </div>
 
 
 
