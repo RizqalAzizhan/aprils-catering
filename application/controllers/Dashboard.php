@@ -72,7 +72,7 @@ class Dashboard extends CI_Controller {
         $this->load->view('templates/footer');
         
     }
-    public function contact()
+    public function moreinfo()
     {
         $data['title'] = "April's Catering By JMA";
         $this->load->view('templates/header', $data);

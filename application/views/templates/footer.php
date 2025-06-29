@@ -3,31 +3,27 @@
      <div class="container py-5">
          <div class="row g-5">
              <div class="col-lg-3 col-md-6">
-                 <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Company</h4>
-                 <a class="btn btn-link" href="">About Us</a>
-                 <a class="btn btn-link" href="">Contact Us</a>
-                 <a class="btn btn-link" href="">Reservation</a>
-                 <a class="btn btn-link" href="">Privacy Policy</a>
-                 <a class="btn btn-link" href="">Terms & Condition</a>
+                 <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Workshop</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jl. Raya Puncak Cibogo Megamendung Bogor Jawa Barat 16770</p>
+
              </div>
              <div class="col-lg-3 col-md-6">
                  <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Contact</h4>
-                 <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jl. Raya Puncak Cibogo Megamendung Bogor Jawa Barat 16770</p>
-                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>081770250111</p>
-                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>jayamakmurabadi@gmail.com</p>
+                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+62-8389-168-2049</p>
+                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>jayamakmurabadi369@gmail.com</p>
                  <div class="d-flex pt-2">
-                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                     <a class="btn btn-outline-light btn-social" href=""><i class="fa fa-envelope-open"></i></a>
+                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-whatsapp"></i></a>
+                     <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
                  </div>
              </div>
              <div class="col-lg-3 col-md-6">
                  <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Opening</h4>
                  <h5 class="text-light fw-normal">Monday - Friday</h5>
-                 <p>07AM - 16PM</p>
+                 <p>08AM - 16PM</p>
                  <h5 class="text-light fw-normal">Saturday-Sunday</h5>
-                 <p>07AM - 14PM</p>
+                 <p>08AM - 14PM</p>
              </div>
              <!-- <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>

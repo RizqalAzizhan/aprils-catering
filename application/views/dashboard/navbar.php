@@ -24,7 +24,7 @@
                                 <a href="<?= base_url('Dashboard/testimonial') ?>" class="dropdown-item">Testimonial</a>
                             </div> -->
                         </div>
-                        <a href="<?= base_url('Dashboard/contact') ?>" class="nav-item nav-link">Contact</a>
+                        <a href="<?= base_url('Dashboard/moreinfo') ?>" class="nav-item nav-link">More Info</a>
                     </div>
                    
                 </div>

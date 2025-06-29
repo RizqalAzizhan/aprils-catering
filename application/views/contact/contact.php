@@ -2,13 +2,13 @@
             <div class="container-xxl py-5 bg-dark hero-header mb-5">
                 <div class="container text-center my-5 pt-5 pb-4">
                     <h1 class="display-3 text-white mb-3 animated slideInDown">Contact Us</h1>
-                    <nav aria-label="breadcrumb">
+                    <!-- <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center text-uppercase">
                             <li class="breadcrumb-item"><a href="#">Home</a></li>
                             <li class="breadcrumb-item"><a href="#">Pages</a></li>
                             <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
                         </ol>
-                    </nav>
+                    </nav> -->
                 </div>
             </div>
         </div>
@@ -25,18 +25,7 @@
                 <div class="row g-4">
                     <div class="col-12">
                         <div class="row gy-4">
-                            <div class="col-md-4">
-                                <h5 class="section-title ff-secondary fw-normal text-start text-primary">Booking</h5>
-                                <p class="email"><i class="fa fa-envelope-open text-primary me-2"></i>jayamakmurabadI369@gmail.com</p>
-                            </div>
-                            <div class="col-md-4">
-                                <h5 class="section-title ff-secondary fw-normal text-start text-primary">General</h5>
-                                <p class="email"><i class="fa fa-envelope-open text-primary me-2"></i>jayamakmurabadI369@gmail.com</p>
-                            </div>
-                            <div class="col-md-4">
-                                <h5 class="section-title ff-secondary fw-normal text-start text-primary">Technical</h5>
-                                <p class="email"><i class="fa fa-envelope-open text-primary me-2"></i>jayamakmurabadI369@gmail.com</p>
-                            </div>
+                           
                         </div>
                     </div>
                     <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
@@ -48,59 +37,34 @@
                     </div>
                     <div class="col-md-6">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
-                            <form action="<?= base_url('Dashboard/sendEmail') ?>" method="post">
-                                <div class="row g-3">
-                                    <div class="col-md-6">
-                                        <span class="text">Silahkan Isi Nama</span>
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                            <label for="name">Your Name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <span class="text">Akun Email</span>
-                                        <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                            <label for="email">Your Email</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <span class="text">Nomor Telepon</span>
-                                        <div class="form-floating">
-                                            <input type="tel" pattern="\(\d\d\d\d\)-\d\d\d\d\d\d\d" class="form-control" id="name" placeholder="Your Name">
-                                            <label for="name">+62</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <span class="text">Tanggal Pengiriman</span>
-                                        <div class="form-floating">
-                                            <input type="date" class="form-control" id="email" placeholder="Tanggal Pemesanan">
-                                            <label for="email">Tanggal Pemesanan</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <span class="text">Alamat Pengiriman</span>
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                            <label for="subject">Subject</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <span class="text">Jenis Pemesanan</span>
-                                        <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
-                                            <label for="message">Message</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-                                    </div>
-                                </div>
-                            </form>
+                            <div class="col-12">
+                        <div class="row gy-4">
+                            <div class="col-md-5">
+                                <h5 class="section-title ff-secondary fw-normal text-start text-primary">Reservation</h5>
+                                <p class="email"><i class="bi bi-whatsapp text-primary me-2"></i>+62-8389-168-2049</p>
+                            </div>
+                            <div class="col-md-7">
+                                <h5 class="section-title ff-secondary fw-normal text-start text-primary">Email Company</h5>
+                                <p class="email"><i class="fa fa-envelope-open text-primary me-2"></i>jayamakmurabadi369@gmail.com</p>
+                            </div>
+                            <div class="col-md-5">
+                                <h5 class="section-title ff-secondary fw-normal text-start text-primary">Social Media</h5>
+                                <p class="email"><i class="bi bi-instagram text-primary me-2"></i>@aprils_catering</p>
+                            </div>
+                        </div>
+                    </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="container" data-wow-delay="0.1s">
+             <div class="container">
+                 <a href="https://api.whatsapp.com/send?phone=6283891682049" target="blank">
+                     <h5 class="reservation-footer"><i class="bi bi-whatsapp"></i> Reservasi Chat disini yaa</h5>
+                 </a>
+             </div>
         </div>
         <!-- Contact End -->
 

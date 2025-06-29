@@ -228,6 +228,7 @@
 .service-item .detail-box{
     padding: 10px;
     color: var(--primary);
+    justify-content: center;
 }
 
 .service-item h5, p{
@@ -569,6 +570,7 @@
     border-radius: 15px;
     overflow: hidden;
     background: var(--dark);
+    justify-content: center;
   }
   
   .food_section .box .img-box {

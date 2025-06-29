@@ -9,6 +9,11 @@
       <div class="col-lg-6 text-center text-lg-end overflow-hidden">
         <img class="img-fluid" src="<?= base_url('assets/img/menu/Chickatsu.png') ?>" alt="">
       </div>
+        <!-- <ol class="breadcrumb justify-content-center text-uppercase">
+           <li class="breadcrumb-item"><a href="#menu-food">Food Plate</a></li>
+           <li class="breadcrumb-item"><a href="#menu-buffe">Buffe Package</a></li>
+           <li class="breadcrumb-item text-white active" aria-current="page"><a href="<?= base_url("Dashboard/moreinfo") ?>">More Info</a></li>
+        </ol> -->
     </div>
   </div>
 </div>
@@ -25,16 +30,16 @@
           <div class="p-4">
             <i class="fa fa-3x fa-user-tie mb-4 light"></i>
             <h5>Master Chefs</h5>
-            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            <p>Di masak oleh Chefs berpengalaman dan bersertifikat</p>
           </div>
         </div>
       </div>
       <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
         <div class="service-item rounded pt-3">
           <div class="p-4">
-            <img src="<?= base_url("assets/") ?>img/Halal.png" alt="" style="height:71px; padding-bottom:12px">
+            <i><img src="<?= base_url("assets/") ?>img/halal.png" alt="" style="height:71px; padding-bottom:12px"></i>
             <h5>Quality Food</h5>
-            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            <p>Masakan terjamin dengan bahan bahan berkualitas dan halal</p>
           </div>
         </div>
       </div>
@@ -43,7 +48,7 @@
           <div class="p-4">
             <i class="fa fa-3x fa-cart-plus mb-4"></i>
             <h5>Online Order</h5>
-            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            <p>Menyediakan layanan pesanan online melalui whatsapp</p>
           </div>
         </div>
       </div>
@@ -52,7 +57,7 @@
           <div class="p-4">
             <i class="fa fa-3x fa-headset mb-4"></i>
             <h5>24/7 Service</h5>
-            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+            <p>Melayani costumer selama 24 jam tanpa khawatir telat respon</p>
           </div>
         </div>
       </div>
@@ -61,352 +66,6 @@
 </div>
 <!-- Service End -->
 
-
-
-
-<!-- Menu Start -->
-<!-- <div class="container-xxl py-5">
-            <div class="container">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
-                    <h1 class="mb-5" id="menu">Most Popular Items</h1>
-                </div>
-                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
-                        <li class="nav-item">
-                            <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
-                                <i class="fa fa-coffee fa-2x text-primary"></i>
-                                <div class="ps-3">
-                                    <small class="text-body">Popular</small>
-                                    <h6 class="mt-n1 mb-0">Breakfast</h6>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
-                                <i class="fa fa-hamburger fa-2x text-primary"></i>
-                                <div class="ps-3">
-                                    <small class="text-body">Special</small>
-                                    <h6 class="mt-n1 mb-0">Launch</h6>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
-                                <i class="fa fa-utensils fa-2x text-primary"></i>
-                                <div class="ps-3">
-                                    <small class="text-body">Lovely</small>
-                                    <h6 class="mt-n1 mb-0">Dinner</h6>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="tab-content">
-                        <div id="tab-1" class="tab-pane fade show p-0 active">
-                            <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-1.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-2.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-3.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-4.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-5.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-6.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-7.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-8.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="tab-2" class="tab-pane fade show p-0">
-                            <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-1.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-2.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-3.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-4.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-5.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-6.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-7.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-8.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="tab-3" class="tab-pane fade show p-0">
-                            <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-1.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-2.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-3.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-4.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-5.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-6.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-7.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/') ?>img/menu-8.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Chicken Burger</span>
-                                                <span class="text-primary">$115</span>
-                                            </h5>
-                                            <small class="fst-italic">Ipsum ipsum clita erat amet dolor justo diam</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-<!-- Menu End -->
 
 <!-- Food Plate Start -->
 <section class="food_section layout_padding-bottom">
@@ -431,7 +90,7 @@
                     RiceBowl Chicken Katsu
                   </h5>
                   <p>
-                    RiceBowl terdiri dari nasi putih yang disijakan dengan chicken katsu yaitu ayam yang telah di bumbui dan di maranasi hidangan ini di sajikan dengan sayuran dan chili sauce & tomato sauce
+                   RiceBowl berisi nasi putih dengan chicken katsu berbumbu, disajikan bersama sayuran serta saus cabai dan tomat.
                   </p>
                   <div class="options">
                     <h6>
@@ -455,7 +114,7 @@
                     RiceBowl Paru Balado
                   </h5>
                   <p>
-                    RiceBowl terdiri dari nasi putih yang di sajikan dengan paru masak balado dan di sajikan dengan sayuran segar
+                    RiceBowl terdiri dari nasi putih yang di sajikan dengan paru masak balado dan di sajikan dengan sayuran segar.
                   </p>
                   <div class="options">
                     <h6>
@@ -479,7 +138,7 @@
                     Tumpeng Andong
                   </h5>
                   <p>
-                    Tumpeng andong adalah tumpeng mini hidangan tradisional indonesia yang terdiri dari nasi kuning yang di bentuk kerucut dan di sajikan dengan berbagai lauk pauk
+                    Tumpeng Andong adalah tumpeng mini nasi kuning berbentuk kerucut, disajikan dengan aneka lauk tradisional.
                   </p>
                   <div class="options">
                     <h6>
@@ -503,7 +162,7 @@
                     RiceBowl Chicken Katsu TarTar Sauce
                   </h5>
                   <p>
-                    RiceBowl terdiri dari nasi putih yang disijakan dengan chicken katsu yaitu ayam yang telah di bumbui dan di maranasi hidangan ini di sajikan dengan sayuran dan disiram dengan Tartar Sauce
+                    RiceBowl berisi nasi putih dengan chicken katsu berbumbu, disajikan bersama sayuran dan siraman Tartar Sauce.
                   </p>
                   <div class="options">
                     <h6>
@@ -526,7 +185,7 @@
                   Udang Lada Hitam
                 </h5>
                 <p>
-                  Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
+                  Udang segar dimasak dengan saus lada hitam khas, memadukan rasa pedas, gurih, dan manis yang meresap sempurna ke dalam daging udang
                 </p>
                 <div class="options">
                   <h6>
@@ -548,7 +207,7 @@
                   Ikan Gurame Bakar/Goreng
                 </h5>
                 <p>
-
+                  Ikan gurame segar dibakar sempurna dengan bumbu rempah pilihan, menghasilkan aroma smokey yang menggoda. Dibalur saus manis gurih khas
                 </p>
                 <div class="options">
                   <h6>
@@ -570,7 +229,7 @@
                   Dory Sauce Lemon
                 </h5>
                 <p>
-                  Dori Saus Lemon adalah hidangan yang menggabungkan potongan ikan dori goreng dengan saus lemon yang segar dan sedikit asam. Saus ini biasanya dibuat dengan perasan jeruk lemon, margarin atau mentega, dan mungkin juga sedikit gula untuk menambavh rasa manis. Ikan dori yang digunakan biasanya sudah digoreng hingga matang dan renyah, kemudian disajikan dengan saus lemon.
+                 Ikan dori goreng renyah yang disajikan dengan saus lemon segar, perpaduan rasa asam dan manis yang menyegarkan.
                 </p>
                 <div class="options">
                   <h6>
@@ -592,10 +251,11 @@
                   Ikan Nila Goreng
                 </h5>
                 <p>
-
+                  Disajikan dengan sambal manis pedas, sayuran segar, dan irisan jeruk nipis untuk cita rasa segar dan menggugah selera.
+                </p>
                 <div class="options">
                   <h6>
-
+                    $100
                   </h6>
                 </div>
               </div>
@@ -613,11 +273,11 @@
                   Nasi Goreng Kambing
                 </h5>
                 <p>
-
+                  Disajikan dengan telur ceplok dan sayuran segar untuk cita rasa yang kaya dan menggoda.
                 </p>
                 <div class="options">
                   <h6>
-
+                    $100
                   </h6>
                 </div>
               </div>
@@ -637,26 +297,9 @@
       <h1 class="mb-5" id="menu-box">Explore Our Food Box </h1>
     </div>
     <div class="row g-4">
-      <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="service-item" style="border-radius:25px">
-          <div class="p-4">
-            <!-- <i class="fa fa-3x fa-user-tie  mb-4"></i> -->
-            <h5>Paket Bacakan</h5>
-            <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu2/Nasi Box1.jpg') ?>" alt="" style="width:100%; border:solid 12px white;">
-            <div class="detail-box">
-              <p>Nasi Liwet Ikan Teri, Ayam Goreng kelapa, Ikan Goreng Kapasan, Tempe & Tahu Bacem,Pete Bakar, Sambal Jeruk, Lalapan
-              </p>
-            </div>
-            <h6>
-              Rp. 180.000
-            </h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+       <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
         <div class="service-item" style="border-radius:25px;">
           <div class="p-4">
-            <!-- <i class="fa fa-3x fa-utensils  mb-4"></i> -->
             <h5>Nasi Bento</h5>
             <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu/Paket1.jpg') ?>" alt="" style="width:100%; border:solid 12px white;">
             <div class="detail-box">
@@ -665,6 +308,22 @@
             <h6>
               Rp. 35.000
             </h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="service-item" style="border-radius:25px">
+          <div class="p-4">
+            <!-- <i class="fa fa-3x fa-user-tie  mb-4"></i> -->
+            <h5>Paket Bacakan</h5>
+            <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu2/Nasi Box1.jpg') ?>" alt="" style="width:100%; border:solid 12px white;">
+            <div class="detail-box">
+              <p>Nasi Liwet disajikan dengan ikan teri, ayam goreng kelapa, ikan kapasan goreng, tempe dan tahu bacem, pete bakar, sambal jeruk, serta lalapan segar.
+                <h6>
+              Rp. 180.000
+            </h6>
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -693,7 +352,7 @@
               <p>Nasi Putih, Ayam Bakar, Udang Asam Manis, Bakwan Jagung, Soup Sayuran Bakso, Sambal,Buah, Air Mineral</p>
             </div>
             <h6>
-
+              $100
             </h6>
           </div>
         </div>
@@ -708,7 +367,7 @@
               <p>Nasi Putih,Empal Gepuk, Ikan Kapasan, Bakwan Jagung, Sayur Asam, Sambal, Buah, Air mineral </p>
             </div>
             <h6>
-
+              $100
             </h6>
           </div>
         </div>
@@ -716,14 +375,13 @@
       <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
         <div class="service-item" style="border-radius:25px;">
           <div class="p-4">
-            <!-- <i class="fa fa-3x fa-utensils  mb-4"></i> -->
             <h5>Paket 6</h5>
             <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu3/NasiBox3.jpg') ?>" alt="" style="width:100%; border:solid 12px white;">
             <div class="detail-box">
               <p>Nasi Putih, Daging Masak Lada Hitam, Dory Katsu, Tahu Goreng, Capcay, Sambal, Buah, Air Mineral</p>
             </div>
             <h6>
-
+               $100
             </h6>
           </div>
         </div>
@@ -738,7 +396,7 @@
               <p>Nasi Putih, Ayam Goreng Tepung Panir, Ikan Bawal Bakar, Tahu Sauce Garlic, Soto Bening, Sambal, Buah, Air Mineral</p>
             </div>
             <h6>
-
+              $100
             </h6>
           </div>
         </div>
@@ -752,6 +410,9 @@
             <div class="detail-box">
               <p>Nasi Putih, Daging Lada Hitam, Udang Asam Manis, Tahu Goreng Crispy, Sambal, Air Mineral, Fresh Juice</p>
             </div>
+             <h6>
+              $100
+            </h6>
           </div>
         </div>
       </div>
@@ -764,6 +425,9 @@
             <div class="detail-box">
               <p>Nasi Putih, Ikan Nila Goreng, Ayam Asam Manis, Kentang Balado, Cah Sawi, Buah, Air Mineral</p>
             </div>
+             <h6>
+              $100
+            </h6>
           </div>
         </div>
       </div>
@@ -778,7 +442,7 @@
               </p>
             </div>
             <h6>
-
+              $100
             </h6>
           </div>
         </div>
@@ -794,7 +458,7 @@
               </p>
             </div>
             <h6>
-
+              $100
             </h6>
           </div>
         </div>
@@ -810,7 +474,7 @@
               </p>
             </div>
             <h6>
-
+              $100
             </h6>
           </div>
         </div>
@@ -825,7 +489,7 @@
               <p> Nasi Putih, Ayam Bakar, Dory Cah Paprika, Tahu Berontak, Sambal, Air Mineral, Es Buah
             </div>
             <h6>
-
+              $100
             </h6>
           </div>
         </div>
@@ -841,7 +505,7 @@
               </p>
             </div>
             <h6>
-
+              $100
             </h6>
           </div>
         </div>
@@ -857,7 +521,7 @@
               </p>
             </div>
             <h6>
-
+              $100
             </h6>
           </div>
         </div>
@@ -873,7 +537,7 @@
               </p>
             </div>
             <h6>
-
+              $100
             </h6>
           </div>
         </div>
@@ -888,8 +552,7 @@
               <p>Nasi Putih, Daging Paprika, Dory Acar Kuning, Tumisan, Peyek Kacang, Sambal, Es Buko Pandan, Air Mineral
               </p>
             </div>
-            <h6>
-
+            <h6>$100
             </h6>
           </div>
         </div>
@@ -904,7 +567,7 @@
               <p>Nasi Putih, Ayam Goreng Balado, Lele Mangut, Perkedel Kentang, Sambal, Es Sarang Burung, Air Mineral
             </div>
             <h6>
-
+              $100
             </h6>
           </div>
         </div>
@@ -922,102 +585,9 @@
       <h1 class="mb-5" id="menu-buffe">Our Buffe Package</h1>
     </div>
     <div class="row g-4">
-      <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="service-item" style="border-radius:25px">
-          <div class="p-4">
-            <!-- <i class="fa fa-3x fa-user-tie  mb-4"></i> -->
-            <h5>Coffe Break Sore Buffet</h5>
-            <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu4/buffe18.jpg') ?>" alt="" style="width:100%; border:solid 12px white;">
-            <div class="detail-box">
-              <p>Coffe Break Buffet
-                Minimal Order 30 pax
-              </p>
-            </div>
-            <h6>
-              Rp. 25.000 / PAX
-            </h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-        <div class="service-item" style="border-radius:25px;">
-          <div class="p-4">
-            <!-- <i class="fa fa-3x fa-utensils  mb-4"></i> -->
-            <h5></h5>
-            <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/buffe/buffe111.jpg') ?>" alt="" style="width:100%; border:solid 12px white;">
-            <div class="detail-box">
-              <p> </p>
-            </div>
-            <h6>
-
-            </h6>
-          </div>
-        </div>
-      </div>
       <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
         <div class="service-item" style="border-radius:25px;">
           <div class="p-4">
-            <!-- <i class="fa fa-3x fa-cart-plus mb-4"></i> -->
-            <h5>Coffe Break Pagi Buffet</h5>
-            <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/buffe/buffe18.jpg') ?>" alt="" style="width:100%; border:solid 12px white;">
-            <div class="detail-box">
-              <p>Coffe Break Pagi Minimal Order 30 pax</p>
-            </div>
-            <h6>
-              Rp. 25.000 / pax
-            </h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-        <div class="service-item" style="border-radius:25px;">
-          <div class="p-4">
-            <!-- <i class="fa fa-3x fa-headset   mb-4"></i> -->
-            <h5> Deseert Buffe</h5>
-            <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/buffe/buffe8.jpg') ?>" alt="" style="width:100%; border:solid 12px white;">
-            <div class="detail-box">
-              <p></p>
-            </div>
-            <h6>
-
-            </h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-        <div class="service-item" style="border-radius:25px;">
-          <div class="p-4">
-            <!-- <i class="fa fa-3x fa-utensils  mb-4"></i> -->
-            <h5>Coffe Break Snack</h5>
-            <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu4/buffe20.jpg') ?>" alt="" style="width:100%; border:solid 12px white;">
-            <div class="detail-box">
-              <p></p>
-            </div>
-            <h6>
-
-            </h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-        <div class="service-item" style="border-radius:25px;">
-          <div class="p-4">
-            <!-- <i class="fa fa-3x fa-cart-plus mb-4"></i> -->
-            <h5>Coffe Break Snack</h5>
-            <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/buffe/buffe17.jpg') ?>" alt="" style="width:100%; border:solid 12px white;">
-            <div class="detail-box">
-              <p></p>
-            </div>
-            <h6>
-
-            </h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-        <div class="service-item" style="border-radius:25px;">
-          <div class="p-4">
-            <!-- <i class="fa fa-3x fa-cart-plus mb-4"></i> -->
             <h5>Paket 8</h5>
             <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/buffe/buffe1.jpg') ?>" alt="" style="width:100%; border:solid 12px white;">
             <div class="detail-box">
@@ -1032,16 +602,15 @@
       <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
         <div class="service-item" style="border-radius:25px;">
           <div class="p-4">
-            <!-- <i class="fa fa-3x fa-cart-plus mb-4"></i> -->
             <h5>Paket Buffe</h5>
             <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu4/buffe19.jpg') ?>" alt="" style="width:100%; border:solid 12px white;">
             <div class="detail-box">
               <p>Breakfast, Lunch, Dinner
-                Minimal Order 30 / Pax
+                Minimal Order 30 / <br><br>
               </p>
             </div>
             <h6>
-              Start From Rp. 40.0000
+               Rp. 40.0000
             </h6>
           </div>
         </div>
@@ -1049,7 +618,6 @@
       <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
         <div class="service-item" style="border-radius:25px;">
           <div class="p-4">
-            <!-- <i class="fa fa-3x fa-cart-plus mb-4"></i> -->
             <h5>Paket 10</h5>
             <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/buffe/buffe7.jpg') ?>" alt="" style="width:100%; border:solid 12px white;">
             <div class="detail-box">
@@ -1057,6 +625,36 @@
             </div>
             <h6>
               Rp. 180.000
+            </h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+        <div class="service-item" style="border-radius:25px;">
+          <div class="p-4">
+            <h5>Coffe Break Pagi Buffet</h5>
+            <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/buffe/buffe18.jpg') ?>" alt="" style="width:100%; border:solid 12px white;">
+            <div class="detail-box">
+              <p>Coffe Break Pagi Minimal Order 30 pax</p>
+            </div>
+            <h6>
+              Rp. 25.000 / pax
+            </h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="service-item" style="border-radius:25px">
+          <div class="p-4">
+            <h5>Coffe Break Sore Buffet</h5>
+            <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu4/buffe18.jpg') ?>" alt="" style="width:100%; border:solid 12px white;">
+            <div class="detail-box">
+              <p>Coffe Break Buffet
+                Minimal Order 30 pax
+              </p>
+            </div>
+            <h6>
+              Rp. 25.000 / PAX
             </h6>
           </div>
         </div>
@@ -1076,28 +674,6 @@
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
           <h5 class="section-title ff-secondary text-center text-primary fw-normal" id="foodbox"> Snack Box</h5>
           <h1 class="mb-5" id="menu-snackbox">Our Snack Box</h1>
-        </div>
-        <div class="col-sm-6 col-lg-4 all pizza wow fadeInUp" data-wow-delay="0.1s">
-          <div class="box">
-            <div>
-              <div class="img-box">
-                <img src="<?= base_url("assets/img/") ?>/snack/snackbox.jpg" alt="" style="border-radius:10%; width:43%;">
-              </div>
-              <div class="detail-box dark">
-                <h5>
-                  RiceBowl Chicken Katsu
-                </h5>
-                <p>
-                  RiceBowl terdiri dari nasi putih yang disijakan dengan chicken katsu yaitu ayam yang telah di bumbui dan di maranasi hidangan ini di sajikan dengan sayuran dan chili sauce & tomato sauce
-                </p>
-                <div class="options">
-                  <h6>
-                    Rp. 25.000
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
         <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
           <div class="box">
@@ -1165,28 +741,6 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="box">
-            <div>
-              <div class="img-box">
-                <img src="<?= base_url("assets/img/") ?>snack/snackbox5.jpg" alt="" style="border-radius:10%; width:43%;">
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Paket Snack Box 4
-                </h5>
-                <p>
-                  Veniam debitis quaerat officiis quasi cupiditate quo, quisquam velit, magnam voluptatem repellendus sed eaque
-                </p>
-                <div class="options">
-                  <h6>
-                    Rp. 32.000
-                  </h6>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
           <div class="box">
             <div>
@@ -1220,7 +774,7 @@
                   Paket Snack Box 5
                 </h5>
                 <p>
-                  Soes Vanila, Risol Mayo, Brownies, Air Mineral
+                  Soes Vanila, Risol Mayo, Brownies, Air Mineral<br><br>
                 </p>
                 <div class="options">
                   <h6>
@@ -1240,6 +794,28 @@
               <div class="detail-box">
                 <h5>
                   Paket Snack Box 6
+                  </h5>
+                <p>
+                  Soes Vanila, Sosis Solo, Anggur Merah, Air Mineral
+                </p>
+                <div class="options">
+                  <h6>
+                    Rp. 25.000
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="box">
+            <div>
+              <div class="img-box">
+                <img src="<?= base_url("assets/img/") ?>snack/snackbox1.jpg" alt="" style="border-radius:10%; width:43%;">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Paket Snack Box 7
                 </h5>
                 <p>
                   Soes Vanila, Sosis Solo, Anggur Merah, Air Mineral
@@ -1261,10 +837,10 @@
               </div>
               <div class="detail-box">
                 <h5>
-                  Paket Snack Box 7
+                  Paket Snack Box 8
                 </h5>
                 <p>
-                  Muffin Keju, Puff Sosis, Pie Buah, Air Mineral
+                  Muffin Keju, Puff Sosis, Pie Buah, Air Mineral <br><br>
                 </p>
                 <div class="options">
                   <h6>
@@ -1418,7 +994,7 @@
 
 <div class="container" data-wow-delay="0.1s">
   <div class="container">
-    <a href="https://api.whatsapp.com/send?phone=62895367304114" target="blank">
+    <a href="https://api.whatsapp.com/send?phone=6283891682049" target="blank">
       <h5 class="reservation-footer"><i class="bi bi-whatsapp"></i> Reservasi Chat disini yaa</h5>
     </a>
   </div>
