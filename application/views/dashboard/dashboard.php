@@ -1,8 +1,8 @@
 <div class="container-xxl py-5 bg-dark hero-header mb-5">
-  <div class="container my-5 py-5">
+  <div class="container my-3 py-3">
     <div class="row align-items-center g-5">
       <div class="col-lg-6 text-center text-lg-start">
-        <h1 class="display-3 text-white animated slideInLeft">Kepuasan Anda <br>Adalah Priotitas Kami</h1>
+        <h1 class="display-4 text-white animated slideInLeft">Kepuasan Anda <br>Adalah Priotitas Kami</h1>
         <p class="text-white animated slideInLeft mb-4 pb-2">ORDER NOW</p>
         <a href="#menu" class="btn py-sm-3 px-sm-5 me-3 animated slideInLeft">Menu</a>
       </div>
@@ -301,7 +301,7 @@
         <div class="service-item" style="border-radius:25px;">
           <div class="p-4">
             <h5>Nasi Bento</h5>
-            <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu/Paket1.jpg') ?>" alt="" style="width:100%; border:solid 12px white;">
+            <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu/paket1.jpg') ?>" alt="" style="width:100%; border:solid 12px white;">
             <div class="detail-box">
               <p> Nasi Putih, Ayam Teriaki, Nugget/Rolade, Salad, Chili Sauce & Tomato Sauce</p>
             </div>
@@ -332,7 +332,7 @@
           <div class="p-4">
             <!-- <i class="fa fa-3x fa-cart-plus mb-4"></i> -->
             <h5>Paket Breakfast</h5>
-            <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu/Paket2-4.jpg') ?>" alt="" style="width:100%; border:solid 12px white;">
+            <img class="flex-shrink-0 img-fluid rounded" src="<?= base_url('assets/img/menu/paket2-4.jpg') ?>" alt="" style="width:100%; border:solid 12px white;">
             <div class="detail-box">
               <p>Nasi Goreng, Telur Mata Satu, Ayam Goreng, Acar, Coco Crunch, Fresh Milk, Buah</p>
             </div>
