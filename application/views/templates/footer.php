@@ -12,9 +12,9 @@
                  <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+62-8389-168-2049</p>
                  <p class="mb-2"><i class="fa fa-envelope me-3"></i>jayamakmurabadi369@gmail.com</p>
                  <div class="d-flex pt-2">
-                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                     <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/aprils_catering/"><i class="fab fa-instagram"></i></a>
                      <a class="btn btn-outline-light btn-social" href=""><i class="fa fa-envelope-open"></i></a>
-                     <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-whatsapp"></i></a>
+                     <a class="btn btn-outline-light btn-social" href="https://api.whatsapp.com/send?phone=6283891682049"><i class="fab fa-whatsapp"></i></a>
                      <!-- <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a> -->
                  </div>
              </div>
@@ -23,7 +23,7 @@
                  <h5 class="text-light fw-normal">Monday - Friday</h5>
                  <p>08AM - 16PM</p>
                  <h5 class="text-light fw-normal">Saturday-Sunday</h5>
-                 <p>08AM - 14PM</p>
+                 <p>08AM - 16PM</p>
              </div>
              <!-- <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">Newsletter</h4>
