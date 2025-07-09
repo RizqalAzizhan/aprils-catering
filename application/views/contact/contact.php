@@ -48,8 +48,12 @@
                                 <p class="email"><i class="fa fa-envelope-open text-primary me-2"></i>jayamakmurabadi369@gmail.com</p>
                             </div>
                             <div class="col-md-5">
-                                <h5 class="section-title ff-secondary fw-normal text-start text-primary">Social Media</h5>
+                                <h5 class="section-title ff-secondary fw-normal text-start text-primary">Instagram</h5>
                                 <p class="email"><i class="bi bi-instagram text-primary me-2"></i>@aprils_catering</p>
+                            </div>
+                            <div class="col-md-5">
+                                <h5 class="section-title ff-secondary fw-normal text-start text-primary">Tiktok</h5>
+                                <p class="email"><i class="fab fa-tiktok text-primary me-2"></i>@aprils.catering</p>
                             </div>
                         </div>
                     </div>
